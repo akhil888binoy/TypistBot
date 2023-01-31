@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="555,465" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="555,498" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -63,13 +63,13 @@
       <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="496,391" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="496,433" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application/Browser" sap:VirtualizedContainerService.HintSize="434,280" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="d6aea1d0-a050-48c9-9362-2c62f5377699" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Typing Test English - 10FastFingers.com" sap:VirtualizedContainerService.HintSize="434,322" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="d6aea1d0-a050-48c9-9362-2c62f5377699" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
@@ -85,7 +85,7 @@
         </ActivityAction>
       </uix:NApplicationCard.Body>
       <uix:NApplicationCard.TargetApp>
-        <uix:TargetApp Area="0, 0, 0, 0" />
+        <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALXSURBVDhPfZP/T8xxHMc/ZJLqCKevV6cvp67rVJ/P1dUJCyMjOV+aFos5GcYkRmesqRiaEFu+W9nyZcP0S7tpTTLt5sswY8x3Ff0RD+/3XeVs5ofXPp/3+/18PV6v9/P9fiuhySoTAyI0RWX8DJUJiSrB4jveqBIi18R8oM6nFaHIHykYEcnkGJtITszGuSuHrcftBBn8ayO6Ub2IvwAyZNWmjnzW7s+l+lweLV0OghP8HfmSAkB/AeRCsBDpUlUu9zhwNdipOptHXXs+5e5cdpy0o8QK7f8Asspks8rFhw421ubhvuyg/qad2ut2znQWEG7SCJspdEn/AMjJsfEaujSVVu8c1h+wUtmQjvvCPPY0F1DVnMbBq1lUCLASlU2oaRggXQ8yaiRpmTxtiaaoZBYN96wcPFuBp/sh3ucvRLzkQU8XlzrXsf1UFmNitT+AcPGjxGnML7KANwLXBiP1lw7w9ctPNlcfwpi7kER7IVXuw7x985o121ajxGQIgBYIsFG0JB0eTaHMmUjvk+f0Dwzw2PuCnt4eek/redQUwvvWOLznU9CZsggWW5bdjwJKis3gmcb9YwZO7M1gqnUxO9x1DHz/xLcbespLLUSlZ+I5HcPKFWZxIjZhqgQIV+VgtVMAOqfR1xLDPlcqbXe6+TU0xMcP7/jUNp3BW5GcrE7mVHUSVS6TMNKGTuaOAMrXpAnAVG4diae5JoUxxrm4dtfQLzr40qbHWWImKEGjo9EgiqUJH4Y78FHEYENZKvRNZpVo79mVWJLMBnIWb2Gw/zOfBSB+Zjaz52Xw6loUYcI86YG8O0qYpBg0FiyyMHQ7kmhLFs7lZn6069m5SWVZqZPipWZqKlP43h5J4UKLz7PRYwy8SDpTtn9SbMlRmMHdo7F4GvV4mgzcqE/Ammf1Jcuiozcx8DlPSPafrRQEGWwo0TlEmG1MEu9DicphXII/eUQfmqzyG5iQ1c0C27vaAAAAAElFTkSuQmCC" InformativeScreenshot="7d03053b5640517a366d196048f2a7d3.jpg" Selector="&lt;html app='chrome.exe' title='Typing Test English - 10FastFingers.com' /&gt;" Url="https://10fastfingers.com/typing-test/english" />
       </uix:NApplicationCard.TargetApp>
     </uix:NApplicationCard>
   </Sequence>
