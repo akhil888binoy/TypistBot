@@ -84,19 +84,19 @@
       <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main " sap:VirtualizedContainerService.HintSize="496,986" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main " sap:VirtualizedContainerService.HintSize="496,988" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Typing Test English - 10FastFingers.com" sap:VirtualizedContainerService.HintSize="434,875" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="d6aea1d0-a050-48c9-9362-2c62f5377699" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName=" 10FastFingers.com" sap:VirtualizedContainerService.HintSize="434,877" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="d6aea1d0-a050-48c9-9362-2c62f5377699" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="400,658" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <Sequence DisplayName="Start Typing" sap:VirtualizedContainerService.HintSize="400,660" sap2010:WorkflowViewState.IdRef="Sequence_2">
             <Sequence.Variables>
               <Variable x:TypeArguments="x:String" Name="TextToType" />
             </Sequence.Variables>
